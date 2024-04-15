@@ -8,7 +8,11 @@
 .logo{
   width: 210px; 
   height: auto; 
-  
+  }
+  .linha-divisoria {
+    border: 0;
+    height: 1px;
+    background-color: #41c1f7; /* Cor da linha */
 }
 section {
   text-align: center;
@@ -76,13 +80,14 @@ p:not(:last-of-type),
   display: inline-block;
   border-radius: 0.5rem;
 }
-.image{
-  width: 100px; 
-  height: auto; 
-}
-.imagesj{
-  width: 50%;
+.image {
+  width: 100px;
   height: auto;
+  transition: transform 0.3s ease; 
+}
+
+.image:hover {
+  transform: translateY(-25px); 
 }
 
 .btn.btn-primary {
@@ -108,6 +113,10 @@ p:not(:last-of-type),
 .empresa {
   width: 200px;
   margin: 60px;
+  transition: transform 0.3s ease;
+}
+.empresa:hover{
+  transform: translateY(-15px);
 }
 
 .empresa img {
