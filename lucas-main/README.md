@@ -13,8 +13,11 @@ CSS: O arquivo styles.css contém estilos personalizados para o meu site, inclui
 ### (A funcionalidade do "menu hamburguer" refere-se ao ícone de menu que geralmente é exibido em dispositivos móveis para ocultar e exibir o menu de navegação. Quando clicado, ele abre ou fecha o menu de navegação, proporcionando uma experiência de navegação otimizada para telas menores)
 
 const navbar = document.querySelector('.navbar'); 
+
 const mobileNavbar = document.querySelector('.navbar__mobile');
+
 const button = document.querySelector('.burguer');
+
 button.addEventListener('click', function () {
   mobileNavbar.classList.toggle('active');
 });
