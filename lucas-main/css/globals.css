@@ -10,6 +10,10 @@
   height: auto; 
   
 }
+section {
+  text-align: center;
+  margin-top: 50px;
+}
 
 html {
   font-size: 62.5%;
@@ -78,6 +82,7 @@ p:not(:last-of-type),
 }
 .imagesj{
   width: 50%;
+  height: auto;
 }
 
 .btn.btn-primary {
@@ -93,6 +98,21 @@ p:not(:last-of-type),
   padding: 0 4rem;
   margin: 0 auto;
   margin-bottom: 26rem;
+}
+.empresas {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.empresa {
+  width: 200px;
+  margin: 60px;
+}
+
+.empresa img {
+  width: 100%;
+  height: auto;
 }
 
 .mb-0 {
