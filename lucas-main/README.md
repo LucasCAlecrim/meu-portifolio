@@ -9,7 +9,8 @@ CSS: O arquivo styles.css contém estilos personalizados para o meu site, inclui
 # JavaScript: O arquivo index.js contém scripts para interatividade na página, como a funcionalidade do menu hamburguer e a mudança de estilo da barra de navegação ao rolar a página.
 
 ### JavaScript (index.js)
-## Seleção de Elementos: O JavaScript começa selecionando os elementos HTML relevantes, como a barra de navegação (navbar), o menu hamburguer (button) e a versão móvel da navegação (mobileNavbar)
+## Seleção de Elementos: O JavaScript começa selecionando os elementos HTML relevantes, como a barra de navegação (navbar), o menu "hamburguer (button)" e a versão móvel da navegação (mobileNavbar)
+### (A funcionalidade do "menu hamburguer" refere-se ao ícone de menu que geralmente é exibido em dispositivos móveis para ocultar e exibir o menu de navegação. Quando clicado, ele abre ou fecha o menu de navegação, proporcionando uma experiência de navegação otimizada para telas menores)
 
 const navbar = document.querySelector('.navbar'); 
 
