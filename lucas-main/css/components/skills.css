@@ -2,10 +2,11 @@
   background-color: var(--light-tertiary-color);
   scroll-margin-top: 15rem;
 }
-
+/*Ajustando a margin em margin: 7rem */
 .skills .skills__content {
   padding: 6rem 4rem;
   text-align: center;
+  margin: 0rem;
 }
 
 .skills .skills__content .description {

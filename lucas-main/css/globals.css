@@ -102,6 +102,12 @@ p:not(:last-of-type),
   font-weight: 400;
   font-size: 1.4rem;
 }
+.btn.btn-wpp {
+  background-color: #25ab19;
+  color: var(--white);
+  font-weight: 400;
+  font-size: 1.4rem;
+}
 
 .max-width {
   width: 100%;
