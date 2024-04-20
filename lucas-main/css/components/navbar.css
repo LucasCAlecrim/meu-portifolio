@@ -4,7 +4,7 @@
   left: 0;
   width: 100%;
   z-index: 10;
-  background-color: var(--white);
+  background-color: rgb(29, 166, 251);
 }
 
 .navbar .navbar__content {

@@ -6,7 +6,7 @@
 .skills .skills__content {
   padding: 6rem 4rem;
   text-align: center;
-  margin: 0rem;
+  margin: 0 auto;
 }
 
 .skills .skills__content .description {
